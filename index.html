@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Practice</title>
+   <style>
+      * {
+         margin: 0;
+         padding: 0;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      body {
+         color: aliceblue;
+         background-color: dimgray;
+      }
+      #main {
+         margin: 50px;
+      }
+      h1 {
+         margin-bottom: 50px;
+      }
+      h2 {
+         margin-bottom: 10px;
+      }
+      .block {
+         height: 150px;
+         width: 350px;
+         position: relative;
+         border-radius: 20px;
+      }
+      .text {
+         position: absolute;
+         top: 25%;
+         left: 10%;
+      }
+      .blue {
+         background-color: dodgerblue;
+      }
+      .red {
+         background-color: lightcoral;
+      }
+      .green {
+         background-color: mediumseagreen;
+      }
+      .pink {
+         background-color: orchid;
+      }
+      .block.red {
+         position: absolute;
+         top: 225px;
+         left: 250px;
+      }
+      .block.green {
+         position: absolute;
+         top: 300px;
+         left: 450px;
+      }
+      .block.pink {
+         position: absolute;
+         top: 375px;
+         left: 650px;
+      }
+   </style>
+</head>
+<body>
+   <div id="main">
+      <h1>Overlapping Panels</h1>
+      <div class="block blue">
+         <div class="text">
+            <h2>Block 1</h2>
+            <p>Content for Block 1</p>
+         </div>
+      </div>
+      <div class="block red">
+         <div class="text">
+            <h2>Block 2</h2>
+            <p>Content for Block 2</p>
+         </div>
+      </div>
+      <div class="block green">
+         <div class="text">
+            <h2>Block 3</h2>
+            <p>Content for Block 3</p>
+         </div>
+      </div>
+      <div class="block pink">
+         <div class="text">
+            <h2>Block 4</h2>
+            <p>Content for Block 4</p>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
